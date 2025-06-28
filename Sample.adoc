@@ -1,7 +1,21 @@
 :toc: left
 :stylesheet: ./styles/style.css
 :imagesdir: ./Images
+:hardbreaks-option:
+
 # Asciidoc Stylesheet Sampler
+
+[.text-right]
+--
+氏名：大石皓己
+作成日時：2025/6/28
+--
+
+.Revision
+****
+* Rev1.
+* Rev2.
+****
 
 ## section1
 sample
@@ -16,9 +30,32 @@ sample
 
 ## section2
 This is section2.
+This is paragraph3.
 
+.image
 image:k8s.png[]
 
 ## section3
 * list1
 * list2
+
+## section4
+.block
+====
+sample1
+sample2
+====
+
+## section5
+
+[source,python]
+----
+print("hello world")
+----
+
+## section6
+....
+section1
+section2
+section3
+....

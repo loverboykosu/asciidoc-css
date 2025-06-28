@@ -512,7 +512,7 @@ ul,
 ol,
 dl {
   line-height: var(--asciidoc-line-height, 1.6);
-  margin-bottom: 1.25em;
+  margin-bottom: 0.25em;
   list-style-position: outside;
   font-family: inherit;
 }
@@ -606,7 +606,7 @@ blockquote p {
 
 table {
   background: #fff;
-  margin-bottom: 1.25em;
+  margin-bottom: 0.1em;
   border: 1px solid #dedede;
   word-wrap: normal;
 }
@@ -992,7 +992,7 @@ body.toc2 #header > h1:nth-last-child(2) {
 
   #toc.toc2 {
     margin-top: 0 !important;
-    background-color: #eee8d5;
+    background-color: #fdf7e3;
     position: fixed;
     width: 15em;
     left: 0;
@@ -1008,7 +1008,7 @@ body.toc2 #header > h1:nth-last-child(2) {
 
   #toc.toc2 #toctitle {
     margin-top: 0;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.3rem;
     font-size: 1.2em;
   }
 
@@ -1325,8 +1325,8 @@ table.tableblock.fit-content > caption.title {
 
 .exampleblock > .content {
   border: 1px solid #e6e6e6;
-  margin-bottom: 1.25em;
-  padding: 1.25em;
+  margin-bottom: 0.25em;
+  padding: 0.25em;
   background: #fff;
   border-radius: 4px;
 }
@@ -1341,9 +1341,9 @@ table.tableblock.fit-content > caption.title {
 
 .sidebarblock {
   border: 1px solid #dbdbd6;
-  margin-bottom: 1.25em;
-  padding: 1.25em;
-  background: #f3f3f2;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  background: #fdf1ca;
   border-radius: 4px;
 }
 
@@ -1398,12 +1398,13 @@ table.tableblock.fit-content > caption.title {
 .listingblock > .content > pre:not(.highlight),
 .listingblock > .content > pre[class="highlight"],
 .listingblock > .content > pre[class^="highlight "] {
-  background: #f7f7f8;
+  background-color: #02020c;
+  color: white;
 }
 
 .literalblock.output pre {
+  background-color: rgba(0, 0, 0, 0.9);
   color: #f7f7f8;
-  background: rgba(0, 0, 0, 0.9);
 }
 
 .listingblock > .content {
@@ -1801,7 +1802,7 @@ ol dd,
 .ulist .ulist,
 .ulist .olist,
 .olist .ulist {
-  margin-bottom: 0.625em;
+  margin-bottom: 0.1em;
 }
 
 ul.checklist,
@@ -2309,7 +2310,7 @@ summary {
 }
 
 p {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .sidebarblock p,
@@ -2320,7 +2321,8 @@ p.tableblock {
 }
 
 .exampleblock > .content {
-  background: #fffef7;
+  color: black;
+  background: #fdf1ca;
   border-color: #e0e0dc;
   box-shadow: 0 1px 4px #e0e0dc;
 }
@@ -2519,5 +2521,5 @@ p.tableblock {
   }
 }
 body {
-  background-color: #eee8d5;
+  background-color: #fdf7e3;
 }
