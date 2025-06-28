@@ -59,3 +59,12 @@ section1
 section2
 section3
 ....
+
+## section7
+
+[cols="a,a"]
+|===
+||
+|image:k8s.png[]
+|image:k8s.png[]
+|===
