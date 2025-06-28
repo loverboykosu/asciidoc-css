@@ -1,0 +1,17 @@
+:toc: left
+:stylesheet: ./styles/style.css
+
+# Asciidoc Stylesheet Sampler
+
+## section1
+sample
+
+.sample1
+[cols="a,a,a",options="header,autowidth"]
+|===
+|header1|header2|header3
+|1|2|3
+|1|2|3
+|===
+
+## section2
