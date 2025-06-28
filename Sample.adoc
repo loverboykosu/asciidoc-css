@@ -1,6 +1,6 @@
 :toc: left
 :stylesheet: ./styles/style.css
-
+:imagesdir: ./Images
 # Asciidoc Stylesheet Sampler
 
 ## section1
@@ -15,3 +15,10 @@ sample
 |===
 
 ## section2
+This is section2.
+
+image:k8s.png[]
+
+## section3
+* list1
+* list2
