@@ -62,9 +62,12 @@ section3
 
 ## section7
 
+[%collapsible]
+========
 [cols="a,a"]
 |===
 ||
 |image:k8s.png[]
 |image:k8s.png[]
 |===
+========
