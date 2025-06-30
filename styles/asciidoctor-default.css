@@ -715,7 +715,8 @@ h6 strong {
   letter-spacing: 0;
   padding: 0.1em 0.5ex;
   word-spacing: -0.15em;
-  background: #f7f7f8;
+  background-color: #02020c;
+  color: white;
   border-radius: 4px;
   line-height: calc(var(--asciidoc-line-height, 1.6) * 0.9);
   text-rendering: optimizeSpeed;
